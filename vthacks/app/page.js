@@ -1,8 +1,9 @@
+import EmbarkButton from "./components/EmbarkButton";
+
 export default function Home() {
   return (
     <div className="carousel carousel-vertical h-full w-full">
       <div className="carousel-item h-full">
-        {/* TODO: Make button actually do something */}
         <div
           className="hero min-h-screen"
           style={{
@@ -15,12 +16,12 @@ export default function Home() {
               <h2 className="mb-5 text-2xl">
               The ultimate dinosaur knowledge hub.
               </h2>
-              <button className="btn btn-primary">Embark</button>
+              <EmbarkButton />
             </div>
           </div>
         </div>
       </div>
-      <div className="carousel-item h-full">
+      <div className="carousel-item h-full" id="triassic">
         {/* TODO: Create a link to the triassic page. */}
         <div
           className="hero min-h-screen"
