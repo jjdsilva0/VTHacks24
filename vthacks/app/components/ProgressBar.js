@@ -55,6 +55,7 @@ const ProgressBar = () => {
             </li>
             <li>
                 {/* TODO: If active add bg-primary to className */}
+                {/* Adjusts top half of line */}
                 <hr className="bg-primary"/>
                 <div className="timeline-middle">
                 <svg

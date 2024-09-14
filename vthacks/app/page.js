@@ -67,7 +67,7 @@ export default function Home() {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-neutral-content text-center">
             <div className="max-w-md text-left bg-black bg-opacity-40 p-5 rounded-lg">
-              <h1 className="mb-3 text-5xl font-bold">Cretacious</h1>
+              <h1 className="mb-3 text-5xl font-bold">cretaceous</h1>
               <p className="mb-5">
                 The Cretaceous Period (145-66 million years ago) was the final era of the dinosaurs. It saw the rise of famous species like Tyrannosaurus rex and Triceratops. The climate was warm, supporting diverse ecosystems. Flowering plants emerged, and marine life flourished with creatures like mosasaurs. The period ended with a massive extinction event.
               </p>
