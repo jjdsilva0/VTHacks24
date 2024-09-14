@@ -25,7 +25,7 @@ export default function Home() {
         <div
           className="hero min-h-screen"
           style={{
-            backgroundImage: "url(https://images.pexels.com/photos/3839557/pexels-photo-3839557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
+            backgroundImage: "url(https://i.natgeofe.com/n/5c048a29-390c-4664-8100-01efe5ca01b5/955.jpg?w=1436&h=1078)",
           }}>
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-neutral-content text-center">
@@ -43,7 +43,7 @@ export default function Home() {
         <div
           className="hero min-h-screen"
           style={{
-            backgroundImage: "url(https://images.pexels.com/photos/3839557/pexels-photo-3839557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
+            backgroundImage: "url(https://i.natgeofe.com/n/5c7fabf3-edbc-4956-af56-15dc547371b7/810.jpg?w=1436&h=1078)",
           }}>
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-neutral-content text-center">
@@ -61,7 +61,7 @@ export default function Home() {
         <div
           className="hero min-h-screen"
           style={{
-            backgroundImage: "url(https://images.pexels.com/photos/3839557/pexels-photo-3839557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
+            backgroundImage: "url(https://i.natgeofe.com/n/9c56eafe-8285-4eef-b0d4-e12473098742/907.jpg?w=1436&h=1078)",
           }}>
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-neutral-content text-center">
