@@ -8,8 +8,8 @@ import * as THREE from 'three';
 
 // Model component that loads the GLTF file
 function Model(props) {
-  // Load the model from the public folder (use `/Triceratops.glb` directly)
-  const { scene } = useGLTF("/public/Triceratops.glb");
+
+  const { scene } = useGLTF("/triceratops.glb");
 
   // Render the model using the primitive object
   return <primitive object={scene} {...props} />;
