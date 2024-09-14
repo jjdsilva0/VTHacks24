@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.112.0",
+    "@react-three/fiber": "^8.17.7",
     "axios": "^1.7.7",
     "daisyui": "^4.12.10",
     "dotenv": "^16.4.5",
     "next": "14.2.11",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "three": "^0.168.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
