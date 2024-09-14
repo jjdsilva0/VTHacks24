@@ -2,7 +2,7 @@ import EmbarkButton from "./components/EmbarkButton";
 
 export default function Home() {
   return (
-    <div className="carousel carousel-vertical h-full w-full">
+    <div className="carousel carousel-vertical h-[99dvh] w-full">
       <div className="carousel-item h-full">
         <div
           className="hero min-h-screen"
