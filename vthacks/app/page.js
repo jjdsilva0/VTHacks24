@@ -14,7 +14,7 @@ export default function Home() {
             <div className="max-w-md">
               <h1 className="mb-3 text-5xl font-bold">Dinologue</h1>
               <h2 className="mb-5 text-2xl">
-              The ultimate dinosaur knowledge hub.
+              An interactive journey into dinosaur history
               </h2>
               <EmbarkButton />
             </div>
