@@ -6,7 +6,7 @@ export default function Home() {
       <div className="w-full bg-base-200 text-base-content px-2 py-4 flex">
         {/* Left Section: Title and Description */}
         <div className="carousel carousel-vertical h-[99dvh] w-5/6 flex items-center">
-          <div className=" carousel-item h-full text-center md:text-left">
+          <div className=" carousel-item h-full w-full flex-col text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
               Welcome to the Triassic Period
             </h2>
@@ -16,7 +16,7 @@ export default function Home() {
               and shallow seas.
             </h2>
           </div>
-          <div className="carousel-item h-full text-left md:text-left">
+          <div className="carousel-item h-full w-full flex-col text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
               Empty
             </h2>
@@ -27,7 +27,6 @@ export default function Home() {
         </div>
       </div>
       <div className="w-1/6 fixed right-1 top-2">
-        HERE
       </div>
     </div>
   );
