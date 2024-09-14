@@ -1,8 +1,8 @@
-// components/Chat.js
 import { useState } from "react";
 
 const Chat = () => {
   const [input, setInput] = useState("");
+  const [responseText, setResponseText] = useState("");
   const [audioUrl, setAudioUrl] = useState(null);
 
   const handleChatSubmit = async (e) => {
@@ -15,10 +15,16 @@ const Chat = () => {
       body: JSON.stringify({ userMessage: input }),
     });
 
-    // Step 2: Convert response to audio blob and set as audio URL
-    const audioBlob = await response.blob();
-    const url = URL.createObjectURL(audioBlob);
-    setAudioUrl(url);
+    // Step 2: Convert response to JSON and extract text and audio
+    const data = await response.json();
+    if (response.ok) {
+      setResponseText(data.text);
+      const audioBlob = await fetch(data.audio).then((res) => res.blob());
+      const url = URL.createObjectURL(audioBlob);
+      setAudioUrl(url);
+    } else {
+      console.error("Error:", data.error);
+    }
   };
 
   return (
@@ -35,6 +41,7 @@ const Chat = () => {
           Submit
         </button>
       </form>
+      {responseText && <p>{responseText}</p>}
       {audioUrl && <audio controls src={audioUrl} />}
     </div>
   );

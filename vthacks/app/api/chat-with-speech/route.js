@@ -3,11 +3,13 @@ import { NextResponse } from "next/server";
 import axios from "axios";
 
 export async function POST(req) {
-  const { userMessage } = await req.json();
+  const { userMessage } = await req.json(); // Extract userMessage from request
+
+  console.log("Received message:", userMessage);
 
   try {
-    // Step 1: Get GPT response
-    const gptResponse = await axios.post(
+    // Request to OpenAI API for chat response
+    const chatResponse = await axios.post(
       "https://api.openai.com/v1/chat/completions",
       {
         model: "gpt-4",
@@ -20,11 +22,13 @@ export async function POST(req) {
       }
     );
 
-    const botMessage = gptResponse.data.choices[0].message.content;
+    const botMessage = chatResponse.data.choices[0].message.content;
 
-    // Step 2: Convert GPT response to speech
-    const ttsResponse = await axios.post(
-      "https://api.elevenlabs.io/v1/text-to-speech/daniel",
+    console.log("Chat response:", botMessage);
+
+    // Request to 11Labs for text-to-speech conversion
+    const speechResponse = await axios.post(
+      `https://api.elevenlabs.io/v1/text-to-speech/onwK4e9ZLuTAKqWW03F9`,
       {
         text: botMessage,
         voice_settings: {
@@ -41,14 +45,23 @@ export async function POST(req) {
       }
     );
 
-    return new Response(ttsResponse.data, {
-      headers: {
-        "Content-Type": "audio/mpeg",
-      },
+    console.log("Speech response received");
+
+    // Return both text and audio data
+    return NextResponse.json({
+      text: botMessage,
+      audio:
+        "data:audio/mpeg;base64," +
+        Buffer.from(speechResponse.data).toString("base64"),
     });
   } catch (error) {
+    // Log the full error for debugging
+    console.error(
+      "Error in chat-with-speech API:",
+      error.response?.data || error.message
+    );
     return NextResponse.json(
-      { error: "Error processing the request" },
+      { error: "Error processing request" },
       { status: 500 }
     );
   }
