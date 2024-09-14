@@ -30,11 +30,11 @@ export default function Home() {
           }}>
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-neutral-content text-center">
-            <div className="max-w-md">
+            <div className="max-w-md text-left bg-black bg-opacity-40 p-5 rounded-lg">
               <h1 className="mb-3 text-5xl font-bold">Triassic</h1>
-              <h2 className="mb-5 text-2xl">
-                Filler
-              </h2>
+              <p className="mb-5">
+                The Triassic Period (252-201 million years ago) marked the start of the Mesozoic Era. Following a massive extinction, it saw the rise of early dinosaurs, mammals, and marine reptiles. The climate was hot and dry, with vast deserts. The period ended with another significant extinction event.
+              </p>
             </div>
           </div>
         </div>
@@ -48,11 +48,11 @@ export default function Home() {
           }}>
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-neutral-content text-center">
-            <div className="max-w-md">
+            <div className="max-w-md text-left bg-black bg-opacity-40 p-5 rounded-lg">
               <h1 className="mb-3 text-5xl font-bold">Jurassic</h1>
-              <h2 className="mb-5 text-2xl">
-                Filler
-              </h2>
+              <p className="mb-5">
+                The Jurassic Period (201-145 million years ago) was a time of significant dinosaur dominance and diversification. It saw the rise of iconic species like Stegosaurus and Brachiosaurus. The climate was warm and humid, fostering lush vegetation. Marine life thrived with the presence of large reptiles like plesiosaurs. The period ended with a minor extinction event.
+              </p>
             </div>
           </div>
         </div>
@@ -66,11 +66,11 @@ export default function Home() {
           }}>
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-neutral-content text-center">
-            <div className="max-w-md">
+            <div className="max-w-md text-left bg-black bg-opacity-40 p-5 rounded-lg">
               <h1 className="mb-3 text-5xl font-bold">Cretacious</h1>
-              <h2 className="mb-5 text-2xl">
-                Filler
-              </h2>
+              <p className="mb-5">
+                The Cretaceous Period (145-66 million years ago) was the final era of the dinosaurs. It saw the rise of famous species like Tyrannosaurus rex and Triceratops. The climate was warm, supporting diverse ecosystems. Flowering plants emerged, and marine life flourished with creatures like mosasaurs. The period ended with a massive extinction event.
+              </p>
             </div>
           </div>
         </div>
