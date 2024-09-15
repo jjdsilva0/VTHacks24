@@ -159,7 +159,6 @@ export default function Home() {
             </h2>
           </div>
 
-          {/* TODO: CHANGE IMAGE AND CAPTION */}
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
             <img src="../61c1b2dc-5dc8-49cb-baf2-f7e290cd41f7.webp" 
             className="h-1/2 w-full object-contain" />
