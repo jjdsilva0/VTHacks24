@@ -21,9 +21,18 @@ export default function Home() {
         <BackButton url="/" />
       </div>
 
+<<<<<<< HEAD
       <div className="fixed z-10 right-3 bottom-3 h-1/4 w-1/4 flex ">
         <div className="chat chat-end w-1/2 items-center">
           <div className="chat-bubble hover:bg-secondary" onClick={handleClick}>Ask me more!
+=======
+      <div className="fixed z-10 right-3 bottom-0 h-[8rem] w-[15rem] flex ">
+        <div className="chat chat-end w-1/2 items-start mt-5">
+          <div className="chat-bubble hover:bg-secondary hover:cursor-pointer">Ask me more!
+            <button>
+
+            </button>
+>>>>>>> e6a344d6cdf958a9fa383994199ab69b9fa70000
           </div>
         </div>
         <div>
