@@ -15,7 +15,7 @@ function Model({ modelPath, ...props }) {
 // Scene component that renders the 3D environment and accepts modelPath as a prop
 function Scene({ modelPath }) {
   return (
-    <Canvas dpr={[1, 2]} shadows camera={{ fov: 45 }} style={{ position: "absolute" }}>
+    <Canvas dpr={[1, 2]} shadows camera={{ fov: 45 }} style={{ position: "absolute", width: "50%" }}>
       <color attach="transparent" args={["#101010"]} />
 
       {/* Lighting setup */}
