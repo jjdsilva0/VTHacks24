@@ -2,14 +2,19 @@
 
 import BackButton from "../components/BackButton";
 import dynamic from 'next/dynamic';
+import { useState } from 'react';
 
 const ObjModel = dynamic(() => import('../components/Model'), {
   ssr: false,  // This ensures WebGL only runs on the client-side
 });
 import Image from 'next/image';
-
+import Chatbox from "../components/Chatbox";
 
 export default function Home() {
+  const [isComponentVisible, setIsComponentVisible] = useState(false);
+  const handleClick = () => {
+    setIsComponentVisible(!isComponentVisible);
+  };
   return (
     <div>
       <div className="fixed z-10 top-3 left-3">
@@ -18,11 +23,11 @@ export default function Home() {
 
       <div className="fixed z-10 right-3 bottom-3 h-1/4 w-1/4 flex ">
         <div className="chat chat-end w-1/2 items-center">
-          <div className="chat-bubble hover:bg-secondary">Ask me more!
-            <button>
-
-            </button>
+          <div className="chat-bubble hover:bg-secondary" onClick={handleClick}>Ask me more!
           </div>
+        </div>
+        <div>
+        {isComponentVisible && <Chatbox />}
         </div>
         <div className="w-1/2">
           <ObjModel modelPath={"triceratops.glb"} />
