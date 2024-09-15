@@ -7,8 +7,10 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div>
-      <div className="w-full bg-base-200 text-base-content px-2 py-4 flex">
+      <div className="fixed z-10 top-3 left-3">
         <BackButton url="/" />
+      </div>
+      <div className="w-full bg-base-200 text-base-content">
         <div className="carousel carousel-vertical h-[99dvh] w-full flex items-center">
           <div className=" carousel-item h-full w-[90dvw] flex-col justify-center text-left">
             <h2 className="text-5xl  font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
@@ -32,6 +34,7 @@ export default function Home() {
             orming separate landmasses that would become today&apos;s continents. The opening of new oceans and the development of distinct ecosystems set the stage for the dramatic evolution and diversification of dinosaurs during this period.
             </h2>
           </div>
+
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
             <img src="../1dee65fa-428d-49f8-b3da-7025d7c81df0.webp" 
             className="h-1/2 w-full object-contain" />
@@ -65,6 +68,12 @@ export default function Home() {
             </h2>
           </div>
 
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
+            <img src="../ankylosaur.jpg" 
+            className="h-1/2 w-full object-contain" />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">An Ankylosaur, with its armored body and club-like tail, roams the prehistoric landscape, showcasing its impressive defenses against predators.</h2>
+          </div>
+
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl  font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Mid-Cretaceous: The Apex of Theropod Predators
@@ -76,6 +85,12 @@ export default function Home() {
             capable of hunting large prey, including sauropods. Spinosaurus, with its unique adaptations like a 
             sail on its back and semi-aquatic lifestyle, stood out as one of the most specialized dinosaurs of the time.
             </h2>
+          </div>
+
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
+            <img src="../carcharodontosaurus-1_ef07.jpg" 
+            className="h-1/2 w-full object-contain" />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">A Carcharodontosaurus stands triumphantly over a defeated dinosaur, showcasing its power and dominance in a prehistoric landscape.</h2>
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
@@ -118,6 +133,12 @@ export default function Home() {
             </h2>
           </div>
 
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
+            <img src="../Hadrosaurs.jpg" 
+            className="h-1/2 w-full object-contain" />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">A hadrosaur in its natural habitat, a misty forest, showcasing its distinctive cranial crest and broad, flat beak.</h2>
+          </div>
+
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl  font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Coastal Ecosystems and Marine Dinosaurs
@@ -130,6 +151,12 @@ export default function Home() {
             related and often reached enormous sizes. Meanwhile, pterosaurs, the flying reptiles, 
             also flourished, with species like Quetzalcoatlus having wingspans larger than small planes.
             </h2>
+          </div>
+
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
+            <img src="../Mosasaur-Copy_1.jpg" 
+            className="h-1/2 w-full object-contain" />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">A mosasaur glides through ancient seas, showcasing its powerful tail and predatory prowess in the prehistoric ocean.</h2>
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">

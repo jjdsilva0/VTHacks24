@@ -4,8 +4,10 @@ import BackButton from "../components/BackButton";
 export default function Home() {
   return (
     <div>
-      <div className="w-full bg-base-200 text-base-content px-2 py-4 flex">
+      <div className="fixed z-10 top-3 left-3">
         <BackButton url="/" />
+      </div>
+      <div className="w-full bg-base-200 text-base-content">
         {/* Left Section: Title and Description */}
         <div className="carousel carousel-vertical h-[99dvh] w-full flex items-center">
           <div className=" carousel-item h-full w-[90dvw] flex-col justify-center text-left">
