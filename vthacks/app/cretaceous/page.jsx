@@ -32,8 +32,8 @@ export default function Home() {
             orming separate landmasses that would become today&apos;s continents. The opening of new oceans and the development of distinct ecosystems set the stage for the dramatic evolution and diversification of dinosaurs during this period.
             </h2>
           </div>
-          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
-            <img src="https://files.oaiusercontent.com/file-4OILyhQNK1bUoKgPef04kNyG?se=2024-09-15T01%3A30%3A59Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1dee65fa-428d-49f8-b3da-7025d7c81df0.webp&sig=2aR3hIGwrbqRukkzx9H9Lk3POeZYiE755rkPoHgI7FA%3D" 
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
+            <img src="../1dee65fa-428d-49f8-b3da-7025d7c81df0.webp" 
             className="h-1/2 w-full object-contain" />
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">Land animals, lush forests, and the ongoing breakup of the supercontinent Pangaea.</h2>
           </div>
