@@ -66,7 +66,7 @@ const Chatbubble = () => {
                                 {msg.text}
                             </div>
                             ))}
-                            {isLoading && <div className="loader">Loading...</div>} {/* Conditionally render the loader */}
+                            {isLoading && <span className="loading loading-dots loading-lg"></span>} {/* Conditionally render the loader */}
                         </div>
                         <form onSubmit={handleChatSubmit} className="flex"> 
                             <input

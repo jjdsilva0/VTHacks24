@@ -7,8 +7,7 @@ import { useState } from 'react';
 const ObjModel = dynamic(() => import('../components/Model'), {
   ssr: false,  // This ensures WebGL only runs on the client-side
 });
-import Image from 'next/image';
-import Chatbox from "../components/Chatbox";
+
 import Chatbubble from "../components/Chatbubble";
 
 export default function Home() {
@@ -22,18 +21,16 @@ export default function Home() {
         <BackButton url="/" />
       </div>
 
-      <div className="fixed z-10 right-3 bottom-0 h-[8rem] w-[15rem] flex " onClick={handleClick}>
-        <div className="chat chat-end w-1/2 items-start mt-5">
-          {!isComponentVisible && (
-            <div className="chat-bubble hover:bg-secondary hover:cursor-pointer">
+      <div className="fixed z-10 right-3 bottom-0 h-[8rem] w-[15rem] flex">
+        <div className={`chat chat-end w-1/2 items-start mt-5 transition-all duration-500 ${!isComponentVisible ? 'fade-in opacity-100' : 'fade-out opacity-0'}`}>
+            <div className="chat-bubble hover:bg-secondary hover:cursor-pointer" onClick={handleClick}>
               Ask me more!
             </div>
-          )}
         </div>
-        <div>
-          {isComponentVisible && <Chatbubble />}
+        <div className={`transition-all duration-500 ${isComponentVisible ? 'fade-in opacity-100' : 'fade-out opacity-0 pointer-events-none'}`}>
+          <Chatbubble />
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2" onClick={handleClick}>
           <ObjModel modelPath={"triceratops.glb"} />
         </div>
       </div>
