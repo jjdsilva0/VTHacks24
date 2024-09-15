@@ -4,12 +4,14 @@ import BackButton from "../components/BackButton";
 export default function Home() {
   return (
     <div>
-      <div className="w-full bg-base-200 text-base-content px-2 py-4 flex">
+      <div className="fixed z-10 top-3 left-3">
         <BackButton url="/" />
+      </div>
+      <div className="w-full bg-base-200 text-base-content px-2 py-4">
         {/* Left Section: Title and Description */}
         <div className="carousel carousel-vertical h-[99dvh] w-full flex items-center">
-          <div className=" carousel-item h-full w-5/6 flex-col justify-center text-left">
-            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
+          <div className=" carousel-item h-full w-[90dvw] flex-col justify-center text-left">
+            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
               Welcome to the Triassic Period
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
@@ -19,8 +21,8 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
-            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Archosaur Dominance and Early Dinosaur Origins 
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
@@ -31,8 +33,8 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
-            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             The First Dinosaurs Emerge
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
@@ -43,8 +45,8 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
-            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Theropods: Early Dinosaur Predators
             </h2>
             {/* TODO: Fix repeating text */}
@@ -56,8 +58,8 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
-            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Sauropodomorphs: Herbivores Evolve
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
@@ -68,8 +70,8 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
-            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Dinosaur Competition with Other Reptiles
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
@@ -80,8 +82,8 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
-            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Dinosaur Adaptability and Evolutionary Success 
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
@@ -92,8 +94,8 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
-            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             The Rise of Herbivorous Dinosaurs
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
@@ -104,8 +106,8 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
-            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             The End-Triassic Extinction
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
@@ -117,8 +119,8 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
-            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+            <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Dinosaur Dominance After the Extinction
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
@@ -129,6 +131,10 @@ export default function Home() {
             rose to prominence and spread across the globe, setting the stage for their dominance in 
             the Jurassic and Cretaceous periods.
             </h2>
+          </div>
+
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+            <img src="https://i.pinimg.com/originals/5e/11/2f/5e112f6a0655c786229a4494a044e992.jpg" className="h-1/2" />
           </div>
           
         </div>
