@@ -9,6 +9,7 @@ const ObjModel = dynamic(() => import('../components/Model'), {
 });
 import Image from 'next/image';
 import Chatbox from "../components/Chatbox";
+import Chatbubble from "../components/Chatbubble";
 
 export default function Home() {
   const [isComponentVisible, setIsComponentVisible] = useState(false);
@@ -23,11 +24,12 @@ export default function Home() {
 
       <div className="fixed z-10 right-3 bottom-0 h-[8rem] w-[15rem] flex ">
         <div className="chat chat-end w-1/2 items-start mt-5">
-          <div className="chat-bubble hover:bg-secondary hover:cursor-pointer" onClick={handleClick}>Ask me more!
+          <div className="chat-bubble hover:bg-secondary hover:cursor-pointer" onClick={handleClick}>
+            Ask me more!
           </div>
         </div>
         <div>
-        {isComponentVisible && <Chatbox />}
+          {isComponentVisible && <Chatbubble />}
         </div>
         <div className="w-1/2">
           <ObjModel modelPath={"triceratops.glb"} />
