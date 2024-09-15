@@ -1,5 +1,6 @@
 "use client";
 import BackButton from "../components/BackButton";
+import Chatbox from "../components/Chatbox";
 
 export default function Home() {
   return (
@@ -7,6 +8,11 @@ export default function Home() {
       <div className="fixed z-10 top-3 left-3">
         <BackButton url="/" />
       </div>
+
+      <div className="fixed z-10 right-3 bottom-3">
+        <Chatbox />
+      </div>
+
       <div className="w-full bg-base-200 text-base-content">
         {/* Left Section: Title and Description */}
         <div className="carousel carousel-vertical h-[99dvh] w-full flex items-center">
