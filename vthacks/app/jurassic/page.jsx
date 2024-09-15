@@ -46,6 +46,12 @@ export default function Home() {
             </h2>
           </div>
 
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
+            <img src="../jurassicSauropodomorphs.jpg" 
+            className="h-1/2 w-full object-contain" />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">A Jurassic Sauropodomorph towers over prehistoric vegetation, showcasing its massive size and long neck in its natural habitat.</h2>
+          </div>
+
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             First Major Theropod Dinosaurs
@@ -84,6 +90,12 @@ export default function Home() {
             </h2>
           </div>
 
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
+            <img src="../stegosaur.jpg" 
+            className="h-1/2 w-full object-contain" />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">This herbivorous dinosaur, known for its distinctive double row of bony plates and tail spikes called thagomizers, used these features for display, thermoregulation, or defense against predators.</h2>
+          </div>
+
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Large Theropods Dominate the Food Chain
@@ -109,6 +121,12 @@ export default function Home() {
             </h2>
           </div>
 
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
+            <img src="../JurrasicSkiesAndSeas.png" 
+            className="h-1/2 w-full object-contain" />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">155 million years ago, pterosaurs like Pterodactylus and Pteranodon soared above, while ichthyosaurs and plesiosaurs ruled the oceans, coexisting with coastal Jurassic dinosaurs.</h2>
+          </div>
+
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Late Jurassic: Peak of Sauropod Evolution
@@ -122,6 +140,12 @@ export default function Home() {
             </h2>
           </div>
 
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
+            <img src="../Mosasaur-Copy_1.jpg" 
+            className="h-1/2 w-full object-contain" />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">A mosasaur glides through ancient seas, showcasing its powerful tail and predatory prowess in the prehistoric ocean.</h2>
+          </div>
+
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             End of the Jurassic and Transition to the Cretaceous
@@ -133,6 +157,12 @@ export default function Home() {
             tyrannosaurids, ceratopsians, and hadrosaurs set to rise in the Cretaceous. The Jurassic laid the 
             foundation for the incredible dinosaur diversity that would characterize the next era.
             </h2>
+          </div>
+
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
+            <img src="../Mosasaur-Copy_1.jpg" 
+            className="h-1/2 w-full object-contain" />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">A mosasaur glides through ancient seas, showcasing its powerful tail and predatory prowess in the prehistoric ocean.</h2>
           </div>
           
         </div>
