@@ -37,7 +37,7 @@ export default function Home() {
               <div className="max-w-md text-left bg-black bg-opacity-40 p-5 rounded-lg">
                 <h1 className="mb-3 text-5xl font-bold">Triassic</h1>
                 <p className="mb-5">
-                  The Triassic Period (252-201 million years ago) marked the start of the Mesozoic Era. Following a massive extinction, it saw the rise of early dinosaurs, mammals, and marine reptiles. The climate was hot and dry, with vast deserts. The period ended with another significant extinction event.
+                  The Triassic Period (252-201 million years ago) marked the start of the Mesozoic Era. Following a massive extinction, it saw the rise of early dinosaurs, mammals, and marine reptiles. The climate was hot and dry, with vast deserts. The period ended with a significant extinction event.
                 </p>
               </div>
             </Link>
