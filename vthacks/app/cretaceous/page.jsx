@@ -1,12 +1,22 @@
 "use client";
 
 import BackButton from "../components/BackButton";
+import dynamic from 'next/dynamic';
+
+const ObjModel = dynamic(() => import('../components/Model'), {
+  ssr: false,  // This ensures WebGL only runs on the client-side
+});
 
 export default function Home() {
   return (
     <div>
       <div className="w-full bg-base-200 text-base-content px-2 py-4 flex">
         <BackButton url="/" />
+
+        <div className="fixed z-10 right-3 bottom-3">
+          <ObjModel modelPath={"triceratops.glb"} />
+        </div>
+        
         {/* Left Section: Title and Description */}
         <div className="carousel carousel-vertical h-[99dvh] w-full flex items-center">
           <div className=" carousel-item h-full w-5/6 flex-col justify-center text-left">
