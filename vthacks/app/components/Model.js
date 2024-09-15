@@ -16,7 +16,7 @@ function Model({ modelPath, ...props }) {
 function Scene({ modelPath }) {
   return (
     <Canvas dpr={[1, 2]} shadows camera={{ fov: 45 }} style={{ position: "absolute" }}>
-      <color attach="background" args={["#101010"]} />
+      <color attach="transparent" args={["#101010"]} />
 
       {/* Lighting setup */}
       <directionalLight 
@@ -38,7 +38,7 @@ function Scene({ modelPath }) {
 
       {/* Render model with dynamic model path */}
       <PresentationControls speed={1.5} global zoom={0.5} polar={[-0.1, Math.PI / 4]}>
-        <Model modelPath={modelPath} scale={1} />
+        <Model modelPath={modelPath} scale={.25} />
       </PresentationControls>
     </Canvas>
   );
