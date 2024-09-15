@@ -54,7 +54,6 @@ const Chatbubble = () => {
                 <div className="chat-bubble w-full h-full">
                     <div className="p-2 flex flex-col h-full">
                         <div className="flex-1 overflow-y-auto">
-                            {isLoading && <div className="loader">Loading...</div>} {/* Conditionally render the loader */}
                             {messages.map((msg, index) => ( // Mapping over the messages array and rendering each message as a div.
                             <div
                                 key={index}
@@ -67,6 +66,7 @@ const Chatbubble = () => {
                                 {msg.text}
                             </div>
                             ))}
+                            {isLoading && <div className="loader">Loading...</div>} {/* Conditionally render the loader */}
                         </div>
                         <form onSubmit={handleChatSubmit} className="flex"> 
                             <input
