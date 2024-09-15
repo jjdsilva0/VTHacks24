@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <h1>3D Model Viewer</h1>
       {/* Render the dynamically imported 3D model */}
-      <ObjModel />
+      <ObjModel modelPath={"triceratops.glb"} />
     </div>
   );
 }
