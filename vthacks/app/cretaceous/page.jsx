@@ -2,22 +2,37 @@
 
 import BackButton from "../components/BackButton";
 import dynamic from 'next/dynamic';
+import { useState } from 'react';
 
 const ObjModel = dynamic(() => import('../components/Model'), {
   ssr: false,  // This ensures WebGL only runs on the client-side
 });
-import Image from 'next/image';
 
+import Chatbubble from "../components/Chatbubble";
 
 export default function Home() {
+  const [isComponentVisible, setIsComponentVisible] = useState(false);
+  const handleClick = () => {
+    setIsComponentVisible(!isComponentVisible);
+  };
   return (
     <div>
       <div className="fixed z-10 top-3 left-3">
         <BackButton url="/" />
       </div>
 
-      <div className="fixed z-10 right-3 bottom-3 h-1/4 w-1/4">
-        <ObjModel modelPath={"triceratops.glb"} />
+      <div className="fixed z-10 right-3 bottom-0 h-[8rem] w-[15rem] flex">
+        <div className={`chat chat-end w-1/2 items-start mt-5 transition-all duration-500 ${!isComponentVisible ? 'fade-in opacity-100' : 'fade-out opacity-0'}`}>
+            <div className="chat-bubble hover:bg-secondary hover:cursor-pointer" onClick={handleClick}>
+              Ask me more!
+            </div>
+        </div>
+        <div className={`transition-all duration-500 ${isComponentVisible ? 'fade-in opacity-100' : 'fade-out opacity-0 pointer-events-none'}`}>
+          <Chatbubble />
+        </div>
+        <div className="w-1/2" onClick={handleClick}>
+          <ObjModel modelPath={"triceratops.glb"} />
+        </div>
       </div>
         
         
