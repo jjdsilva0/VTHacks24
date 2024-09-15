@@ -47,12 +47,11 @@ export default function Home() {
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg mb-6">
             Theropods: Early Dinosaur Predators
             </h2>
-            {/* TODO: Fix repeating text */}
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
-            The earliest known dinosaurs, such as Herrerasaurus, Eoraptor, and Staurikosaurus, appeared in what is 
-            now South America. These small, agile creatures were fast and bipedal, with early carnivorous species 
-            leading the way. The appearance of these dinosaurs marks a key evolutionary moment, as they were among 
-            the first to show traits that would define the group, such as upright posture and specialized teeth.
+            Theropods, which would later include fearsome predators like Tyrannosaurus rex, had humble beginnings 
+            in the Triassic. Early theropods, such as Coelophysis, were small, bipedal carnivores that preyed on 
+            small animals and possibly scavenged. These dinosaurs set the evolutionary foundation for future apex 
+            predators in the Jurassic and Cretaceous periods.
             </h2>
           </div>
 
