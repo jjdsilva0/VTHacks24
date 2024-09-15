@@ -14,9 +14,9 @@ export default function Home() {
               Welcome to the Cretaceous Period
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
-              A world of recovery and rebirth, where new life emerged, and the
-              first dinosaurs began their rise to dominance amid vast deserts
-              and shallow seas.
+            the pinnacle of dinosaur evolution and diversity. During this time, dinosaurs dominated every terrestrial ecosystem on Earth, 
+            reaching their greatest variety in size, form, and behavior. It was a time when iconic species like 
+            the massive predator Tyrannosaurus rex, the horned Triceratops, and the duck-billed Hadrosaurs roamed the land.
             </h2>
           </div>
 
