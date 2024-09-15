@@ -49,7 +49,7 @@ const Chatbubble = () => {
 
   return (
     <>
-        <div className="fixed z-20 top-0 left-0 w-[90%] h-[94%]">
+        <div className="fixed z-20 bottom-10 left-0 w-[90%] h-[90%]">
             <div className="chat chat-end w-full h-full">
                 <div className="chat-bubble w-full h-full">
                     <div className="p-2 flex flex-col h-full">
