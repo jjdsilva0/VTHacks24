@@ -37,7 +37,7 @@ function Scene({ modelPath }) {
       <ambientLight intensity={0.1} />
 
       {/* Render model with dynamic model path */}
-      <PresentationControls speed={1.5} global zoom={0.5} rotation={[0, Math.PI, 0]}>
+      <PresentationControls speed={1.5} global zoom={0.5} rotation={[0, -2, 0]}>
         <Model modelPath={modelPath} scale={.25} />
       </PresentationControls>
     </Canvas>
