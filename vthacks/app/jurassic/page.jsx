@@ -8,7 +8,7 @@ export default function Home() {
         <BackButton url="/" />
         {/* Left Section: Title and Description */}
         <div className="carousel carousel-vertical h-[99dvh] w-full flex items-center">
-          <div className=" carousel-item h-full w-[90dvh] flex-col justify-center text-left">
+          <div className=" carousel-item h-full w-[90dvw] flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
               Welcome to the Jurassic Period
             </h2>
@@ -19,7 +19,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-[90dvh] h-full flex-col justify-center text-left">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Post-Triassic Recovery
             </h2>
