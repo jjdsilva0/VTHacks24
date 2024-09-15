@@ -1,5 +1,6 @@
 import Link from "next/link";
 import EmbarkButton from "./components/EmbarkButton";
+import AudioPlayer from "./components/AudioPlayer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
                 An interactive journey into dinosaur history
               </h2>
 
+              <AudioPlayer audioSrc="/audio/intro_greeting.mp3" />
               <EmbarkButton />
             </div>
           </div>

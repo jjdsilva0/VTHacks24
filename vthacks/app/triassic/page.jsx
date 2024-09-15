@@ -1,9 +1,11 @@
 "use client";
+import AudioPlayer from "../components/AudioPlayer";
 import BackButton from "../components/BackButton";
 
 export default function Home() {
   return (
     <div>
+      <AudioPlayer audioSrc="/audio/triassic_greeting.mp3" />
       <div className="fixed z-10 top-3 left-3">
         <BackButton url="/" />
       </div>
@@ -23,7 +25,7 @@ export default function Home() {
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
-            Archosaur Dominance and Early Dinosaur Origins 
+              Archosaur Dominance and Early Dinosaur Origins
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
               In the early and middle Triassic, the world was dominated by
@@ -37,14 +39,18 @@ export default function Home() {
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
-            <img src="../Pancrocodylia_diversity (1).jpg" 
-            className="h-1/2 w-full object-contain" />
-            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">Examples of how archosaurs could have looked.</h2>
+            <img
+              src="../Pancrocodylia_diversity (1).jpg"
+              className="h-1/2 w-full object-contain"
+            />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
+              Examples of how archosaurs could have looked.
+            </h2>
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
-            The First Dinosaurs Emerge
+              The First Dinosaurs Emerge
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
               The earliest known dinosaurs, such as Herrerasaurus, Eoraptor, and
@@ -59,25 +65,31 @@ export default function Home() {
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
-            Theropods: Early Dinosaur Predators
+              Theropods: Early Dinosaur Predators
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
-            Theropods, which would later include fearsome predators like Tyrannosaurus rex, had humble beginnings 
-            in the Triassic. Early theropods, such as Coelophysis, were small, bipedal carnivores that preyed on 
-            small animals and possibly scavenged. These dinosaurs set the evolutionary foundation for future apex 
-            predators in the Jurassic and Cretaceous periods.
+              Theropods, which would later include fearsome predators like
+              Tyrannosaurus rex, had humble beginnings in the Triassic. Early
+              theropods, such as Coelophysis, were small, bipedal carnivores
+              that preyed on small animals and possibly scavenged. These
+              dinosaurs set the evolutionary foundation for future apex
+              predators in the Jurassic and Cretaceous periods.
             </h2>
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
-            <img src="../Chindesaurus.jpg" 
-            className="h-1/2 w-full object-contain" />
-            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">The Chindesaurus was among this group of early Triassic theropods.</h2>
+            <img
+              src="../Chindesaurus.jpg"
+              className="h-1/2 w-full object-contain"
+            />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
+              The Chindesaurus was among this group of early Triassic theropods.
+            </h2>
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
-            Sauropodomorphs: Herbivores Evolve
+              Sauropodomorphs: Herbivores Evolve
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
               At the same time as theropods, another group of dinosaurs called
@@ -91,14 +103,19 @@ export default function Home() {
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
-            <img src="../sauropodomorphs.jpg" 
-            className="h-1/2 w-full object-contain" />
-            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">A sauropodomorph explores the lush, green forests of the Triassic Period, surrounded by ferns and towering trees.</h2>
+            <img
+              src="../sauropodomorphs.jpg"
+              className="h-1/2 w-full object-contain"
+            />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
+              A sauropodomorph explores the lush, green forests of the Triassic
+              Period, surrounded by ferns and towering trees.
+            </h2>
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
-            Dinosaur Competition with Other Reptiles
+              Dinosaur Competition with Other Reptiles
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
               In the Triassic, dinosaurs were not yet the dominant land animals.
@@ -113,7 +130,7 @@ export default function Home() {
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
-            Dinosaur Adaptability and Evolutionary Success 
+              Dinosaur Adaptability and Evolutionary Success
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
               As the late Triassic progressed, dinosaurs began to show greater
@@ -126,14 +143,19 @@ export default function Home() {
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
-            <img src="https://i.natgeofe.com/n/74cf2c2c-83e8-4bd3-9969-f603de95746a/992.jpg?w=2560&h=1922" 
-            className="h-1/2 w-full object-contain" />
-            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">A Herrerasaurus hunts for its next meal in a forest in modern day South America.</h2>
+            <img
+              src="https://i.natgeofe.com/n/74cf2c2c-83e8-4bd3-9969-f603de95746a/992.jpg?w=2560&h=1922"
+              className="h-1/2 w-full object-contain"
+            />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
+              A Herrerasaurus hunts for its next meal in a forest in modern day
+              South America.
+            </h2>
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
-            The Rise of Herbivorous Dinosaurs
+              The Rise of Herbivorous Dinosaurs
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
               In parallel with the growth of carnivorous theropods, herbivorous
@@ -147,7 +169,7 @@ export default function Home() {
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
-            The End-Triassic Extinction
+              The End-Triassic Extinction
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
               The Triassic ended with a massive extinction event, caused by
@@ -162,7 +184,7 @@ export default function Home() {
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
-            Dinosaur Dominance After the Extinction
+              Dinosaur Dominance After the Extinction
             </h2>
             <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
               With many of their competitors gone, dinosaurs quickly filled the
@@ -176,11 +198,14 @@ export default function Home() {
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
-            <img src="https://i.pinimg.com/originals/5e/11/2f/5e112f6a0655c786229a4494a044e992.jpg" 
-            className="h-1/2 w-full object-contain" />
-            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">The mass extinction event marking the end of the period.</h2>
+            <img
+              src="https://i.pinimg.com/originals/5e/11/2f/5e112f6a0655c786229a4494a044e992.jpg"
+              className="h-1/2 w-full object-contain"
+            />
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">
+              The mass extinction event marking the end of the period.
+            </h2>
           </div>
-          
         </div>
       </div>
       <div className="w-1/6 fixed right-1 top-2"></div>
