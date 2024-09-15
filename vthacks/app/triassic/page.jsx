@@ -10,6 +10,7 @@ const ObjModel = dynamic(() => import('../components/Model'), {
 });
 
 import Chatbubble from "../components/Chatbubble";
+import EmbarkButton from "../components/EmbarkButton";
 
 export default function Home() {
   const [isComponentVisible, setIsComponentVisible] = useState(false);
@@ -49,9 +50,13 @@ export default function Home() {
               first dinosaurs began their rise to dominance amid vast deserts
               and shallow seas.
             </h2>
+
+            <div className="mt-5 text-center">
+              <EmbarkButton id="1"/>
+            </div>
           </div>
 
-          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left" id="1">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
               Archosaur Dominance and Early Dinosaur Origins
             </h2>

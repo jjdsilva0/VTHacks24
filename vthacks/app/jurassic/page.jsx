@@ -4,6 +4,7 @@ import BackButton from "../components/BackButton";
 
 import dynamic from 'next/dynamic';
 import { useState } from 'react';
+import EmbarkButton from "../components/EmbarkButton";
 
 const ObjModel = dynamic(() => import('../components/Model'), {
   ssr: false,  // This ensures WebGL only runs on the client-side
@@ -50,9 +51,12 @@ export default function Home() {
               a wide variety of herbivorous dinosaurs that flourished in lush
               forests and evolving ecosystems.
             </h2>
+            <div className="mt-5 text-center">
+              <EmbarkButton id="1"/>
+            </div>
           </div>
 
-          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left" id="1">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
               Post-Triassic Recovery
             </h2>

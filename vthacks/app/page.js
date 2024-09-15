@@ -22,7 +22,7 @@ export default function Home() {
               </h2>
 
               <AudioPlayer audioSrc="/audio/intro_greeting.mp3" />
-              <EmbarkButton />
+              <EmbarkButton id="triassic"/>
             </div>
           </div>
         </div>
