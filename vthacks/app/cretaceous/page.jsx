@@ -16,8 +16,13 @@ export default function Home() {
         <BackButton url="/" />
       </div>
 
-      <div className="fixed z-10 right-3 bottom-3 h-1/4 w-1/4">
-        <ObjModel modelPath={"triceratops.glb"} />
+      <div className="fixed z-10 right-3 bottom-3 h-1/4 w-1/4 flex">
+        <div className="chat chat-end w-1/2 items-center">
+          <div className="chat-bubble">Ask me more!</div>
+        </div>
+        <div className="w-1/2">
+          <ObjModel modelPath={"triceratops.glb"} />
+        </div>
       </div>
         
         
