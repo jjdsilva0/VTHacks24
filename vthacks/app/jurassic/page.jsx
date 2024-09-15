@@ -140,11 +140,10 @@ export default function Home() {
             </h2>
           </div>
 
-          {/* TODO: CHANGE IMAGE AND CAPTION */}
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
-            <img src="../Mosasaur-Copy_1.jpg" 
+            <img src="../e74e2cd9-1331-44d8-86f1-6c67b8c76a23.webp" 
             className="h-1/2 w-full object-contain" />
-            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">A mosasaur glides through ancient seas, showcasing its powerful tail and predatory prowess in the prehistoric ocean.</h2>
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">Diplodocus and Brontosaurus, towering over the landscape as they feed from the tall coniferous trees.</h2>
           </div>
 
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
@@ -162,9 +161,9 @@ export default function Home() {
 
           {/* TODO: CHANGE IMAGE AND CAPTION */}
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
-            <img src="../Mosasaur-Copy_1.jpg" 
+            <img src="../61c1b2dc-5dc8-49cb-baf2-f7e290cd41f7.webp" 
             className="h-1/2 w-full object-contain" />
-            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">A mosasaur glides through ancient seas, showcasing its powerful tail and predatory prowess in the prehistoric ocean.</h2>
+            <h2 className="text-2xl md:text-4xl font-bold drop-shadow-md mt-4 px-4">The landscape showcases the breakup of Pangaea and the early diversification of dinosaurs like sauropods, theropods, tyrannosaurids, ceratopsians, and hadrosaurs in a lush, dynamic world.</h2>
           </div>
           
         </div>
