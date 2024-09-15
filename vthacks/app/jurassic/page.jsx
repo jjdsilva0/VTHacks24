@@ -31,7 +31,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Early Jurassic: Emergence of Sauropodomorphs
             </h2>
@@ -44,7 +44,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             First Major Theropod Dinosaurs
             </h2>
@@ -56,7 +56,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Middle Jurassic: Sauropods Reach New Heights
             </h2>
@@ -69,7 +69,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             New Herbivores: Stegosaurs and Ornithopods
             </h2>
@@ -82,7 +82,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Large Theropods Dominate the Food Chain
             </h2>
@@ -94,7 +94,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Jurassic Skies and Seas
             </h2>
@@ -107,7 +107,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             Late Jurassic: Peak of Sauropod Evolution
             </h2>
@@ -120,7 +120,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="carousel-item w-5/6 h-full flex-col justify-center text-left">
+          <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-left">
             <h2 className="text-5xl md:text-7xl font-extrabold bg-gradient-to-r from-green-700 via-lime-500 to-yellow-600 text-transparent bg-clip-text drop-shadow-lg py-3">
             End of the Jurassic and Transition to the Cretaceous
             </h2>
