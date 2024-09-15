@@ -140,6 +140,7 @@ export default function Home() {
             </h2>
           </div>
 
+          {/* TODO: CHANGE IMAGE AND CAPTION */}
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
             <img src="../Mosasaur-Copy_1.jpg" 
             className="h-1/2 w-full object-contain" />
@@ -159,6 +160,7 @@ export default function Home() {
             </h2>
           </div>
 
+          {/* TODO: CHANGE IMAGE AND CAPTION */}
           <div className="carousel-item w-[90dvw] h-full flex-col justify-center text-center">
             <img src="../Mosasaur-Copy_1.jpg" 
             className="h-1/2 w-full object-contain" />
