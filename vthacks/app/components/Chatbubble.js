@@ -49,7 +49,7 @@ const Chatbubble = () => {
 
   return (
     <>
-        <div className="fixed z-20 bottom-10 left-0 w-[90%] h-[90%]">
+        <div className="fixed z-20 bottom-10 left-0 w-[70%] md:w-[90%] h-[90%]">
             <div className="chat chat-end w-full h-full">
                 <div className="chat-bubble w-full h-full">
                     <div className="p-2 flex flex-col h-full">
@@ -73,7 +73,7 @@ const Chatbubble = () => {
                             type="text"
                             value={input}
                             onChange={(e) => setInput(e.target.value)} // Updating the input state with the user's input.
-                            className="flex-1 p-2 border border-gray-300 rounded-l-lg"
+                            className="w-full flex-1 p-2 border border-gray-300 rounded-l-lg"
                             placeholder="Type a message..." // Placeholder text for the input field.
                             />
                             <button
