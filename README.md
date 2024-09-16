@@ -1,4 +1,4 @@
-# Dinologue
+# [Dinologue](https://www.dinologue.study)
 
 Welcome to **Dinologue**, an educational app that takes you on an exciting journey through the three periods of the Mesozoic Era: the Triassic, Jurassic, and Cretaceous. Your guide on this adventure is **Atticus**, an AI-powered Triceratops narrator who brings the prehistoric world to life.
 
