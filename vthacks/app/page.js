@@ -38,7 +38,7 @@ export default function Home() {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-neutral-content text-center">
             <Link href="/triassic">
-              <div className="max-w-md text-left bg-black bg-opacity-40 p-5 rounded-lg">
+              <div className="max-w-md text-left bg-black bg-opacity-40 p-5 rounded-lg hover:bg-opacity-60">
                 <h1 className="mb-3 text-5xl font-bold">Triassic</h1>
                 <p className="mb-5">
                   The Triassic Period (252-201 million years ago) marked the
@@ -64,7 +64,7 @@ export default function Home() {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-neutral-content text-center">
             <Link href="/jurassic">
-              <div className="max-w-md text-left bg-black bg-opacity-40 p-5 rounded-lg">
+              <div className="max-w-md text-left bg-black bg-opacity-40 p-5 rounded-lg hover:bg-opacity-60">
                 <h1 className="mb-3 text-5xl font-bold">Jurassic</h1>
                 <p className="mb-5">
                   The Jurassic Period (201-145 million years ago) was a time of
@@ -91,7 +91,7 @@ export default function Home() {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-neutral-content text-center">
             <Link href="/cretaceous">
-              <div className="max-w-md text-left bg-black bg-opacity-40 p-5 rounded-lg">
+              <div className="max-w-md text-left bg-black bg-opacity-40 p-5 rounded-lg hover:bg-opacity-60">
                 <h1 className="mb-3 text-5xl font-bold">Cretaceous</h1>
                 <p className="mb-5">
                   The Cretaceous Period (145-66 million years ago) was the final
